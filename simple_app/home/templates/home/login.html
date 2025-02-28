@@ -1,0 +1,27 @@
+<!-- home/templates/home/about.html -->
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <link rel="stylesheet" href="{% static 'home/style.css' %}">
+</head>
+<body>
+    {% include 'home/header.html' %}
+    <div class="container">
+        <title>Login</title>
+        <h1>Login</h1>
+        <form method="post">
+            {% csrf_token %}
+            {{ form.as_p }}
+            <button type="submit">Login</button>
+          </form>
+          <p>Don't have an account? <a href="{% url 'create_account' %}" class="create-account-link">Create one</a></p>
+    </div>
+</body>
+</html>
+
+
+
+
+

@@ -1,0 +1,13 @@
+<!-- home/templates/home/header.html -->
+{% load static %}
+<head>
+    <link rel="stylesheet" href="{% static 'home/style.css' %}">
+</head>
+    <nav>
+        <ul>
+            <li><a href="{% url 'home' %}">Home</a></li>
+            <li><a href="{% url 'about' %}">About</a></li>
+            <li><a href="{% url 'dashboards' %}">Dashboards</a></li>
+        </ul>
+</nav>
+
