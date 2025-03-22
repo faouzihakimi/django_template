@@ -1,0 +1,8 @@
+.venv/
+db.sqlite3
+simple_app/.venv/
+simple_app/home/__pycache__/
+simple_app/home/migrations/
+simple_app/simple_app/__pycache__/
+
+
