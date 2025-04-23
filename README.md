@@ -1,8 +1,8 @@
-# Django Template Project
+# Django Plotly Dashboard Starter
 
 ## Overview
 
-This Django project provides a basic template with three main pages: Home, About, and Dashboards. The Dashboards page is restricted to registered users and features a plot created using Plotly. The project includes user authentication with login, registration, and logout functionality.
+This project provides a good starter for a dashboard project with Django. The given web project has three main pages: Home, About, and Dashboards. The Dashboards page is restricted to registered users and features a plot created using Plotly. The project includes user authentication with login, registration, and logout functionality.
 
 ## Features
 
